@@ -1,0 +1,12 @@
+.counter {
+  background: palevioletred;
+  border-radius: 12px;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+
+.counter h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}

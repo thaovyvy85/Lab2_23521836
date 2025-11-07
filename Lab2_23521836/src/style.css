@@ -1,0 +1,12 @@
+/* styles.css */
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+

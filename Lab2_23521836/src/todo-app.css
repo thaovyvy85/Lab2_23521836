@@ -1,0 +1,99 @@
+.todo-app {
+  background: palevioletred;
+  border-radius: 12px;
+  padding: 2rem 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.todo-app h1 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.todo-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 2px solid palevioletred;
+  border-radius: 6px;
+  outline: none;
+}
+
+.btn.add {
+  background: lightpink;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 0.5rem 0;
+}
+
+.todo-text.done {
+  text-decoration: line-through;
+  color: black;
+}
+
+.todo-delete {
+  background: transparent;
+  border: none;
+  color: lightpink;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.btn.tab {
+  border: 1px solid palevioletred;
+  background: lightpink;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn.tab.active,
+.btn.tab:hover {
+  background: lightpink;
+  color: white;
+}
+
+.summary {
+  color: black;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.muted {
+  color: black;
+  font-style: italic;
+}
